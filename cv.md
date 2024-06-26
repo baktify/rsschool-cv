@@ -47,3 +47,19 @@ function createPhoneNumber(numbers) {
   return res;
 }
 ```
+
+## Experience in web
+
+- [Simple beautiful blog](https://github.com/baktify/simple-beautiful-blog)
+- [File converter](https://github.com/baktify/file-converter)
+
+## Education
+
+- Bachelor in Vistula University (Warsaw, Poland)
+
+## Languages
+
+- English (C1)
+- Russian (C1)
+- Kazakh (Native)
+- Turkish (B2)

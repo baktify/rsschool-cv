@@ -21,3 +21,29 @@ Hey, I am Bakytzhan Kozhabayev (Bako), 26 years old. I am self-learned web devel
 | React      | Nginx   | Docker |
 | HTML/CSS   | MySQL   | Figma  |
 | Tailwind   |
+
+## Code example
+
+```
+createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns "(123) 456-7890"
+```
+
+```
+function createPhoneNumber(numbers) {
+  let res = '(';
+
+  for (let i = 0; i < numbers.length; i++) {
+    const el = numbers[i];
+
+    if (i < 3) {
+      i !== 2 ? (res += el) : (res += `${el}) `);
+    } else if (2 < i && i < 6) {
+      i !== 5 ? (res += el) : (res += `${el}-`);
+    } else {
+      res += el;
+    }
+  }
+
+  return res;
+}
+```

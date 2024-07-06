@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Bakytzhan Kozhabayev</title>
+</head>
+
+<body>
+  <div class="mb-16" id="app">
+    <header class="max-w-screen-lg mx-auto mt-8 mb-6">
+      <nav>
+        <ul class="flex justify-end">
+          <li class="ml-7"><a href="#contacts">Contacts</a></li>
+          <li class="ml-7"><a href="#about">About me</a></li>
+          <li class="ml-7"><a href="#skills">Skills</a></li>
+          <li class="ml-7"><a href="#code-example">Code example</a></li>
+          <li class="ml-7"><a href="#experience">Experience</a></li>
+          <li class="ml-7"><a href="#education">Education</a></li>
+          <li class="ml-7"><a href="#languages">Languages</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="max-w-screen-lg mx-auto">
+      <h1 class="text-4xl mb-10 px-10">Bakytzhan Kozhabayev</h1>
+
+      <!-- Contacts -->
+      <section class="mb-10 px-10" id="contacts">
+        <h2 class="text-2xl mb-1.5">Contacts</h2>
+        <hr>
+        <ul class="my-3">
+          <li><span class="font-medium">Address:</span>&nbsp; Zhanaozen,Kazakhstan</li>
+          <li><span class="font-medium">Telegram:</span>&nbsp; @baktify</li>
+          <li><span class="font-medium">Phone:</span>&nbsp; +7775 485 02 64</li>
+          <li><span class="font-medium">Email:</span>&nbsp; bakosyy@gmail.com</li>
+          <li>
+            <span class="font-medium">Github:</span>&nbsp;
+            <a class="text-blue-500 hover:underline" href="https://github.com/baktify">baktify</a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- About me -->
+      <section class="mb-10 px-10" id="about">
+        <h2 class="text-2xl mb-1.5">About me</h2>
+        <hr>
+        <div class="flex items-ce my-3">
+          <p>
+            Hey, I am Bakytzhan Kozhabayev (Bako), 26 years old. I am
+            self-learned web developer familiar with frontend and backend,
+            always excited to learn new things.
+          </p>
+          <img src="./src/images/photo.jpg" alt="photo" width="300">
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="mb-10 px-10" id="skills">
+        <h2 class="text-2xl mb-1.5">Skills</h2>
+        <hr>
+        <table class="my-3 w-[300px] text-left">
+          <thead>
+            <tr>
+              <th>Frontend</th>
+              <th>Backend</th>
+              <th>Other</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Javascript</td>
+              <td>PHP</td>
+              <td>Linux</td>
+            </tr>
+            <tr>
+              <td>Typescript</td>
+              <td>Laravel</td>
+              <td>Git</td>
+            </tr>
+            <tr>
+              <td>React</td>
+              <td>Nginx</td>
+              <td>Docker</td>
+            </tr>
+            <tr>
+              <td>HTML/CSS</td>
+              <td>MySQL</td>
+              <td>Figma</td>
+            </tr>
+            <tr>
+              <td>Tailwind</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Code example -->
+      <section class="mb-10 px-10" id="code-example">
+        <h2 class="text-2xl mb-1.5">Code example</h2>
+        <hr>
+        <div class="bg-[#f6f8fa] text-sm p-4 my-3">
+          <code class="">
+            createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns
+            "(123) 456-7890"
+          </code>
+        </div>
+        <div class="bg-[#f6f8fa] text-sm p-4 my-3">
+          <pre><code class="">function createPhoneNumber(numbers) {
+let res = '(';
+for (let i = 0; i &lt; numbers.length; i++) {
+  const el = numbers[i];
+
+  if (i &lt; 3) {
+    i !== 2 ? (res += el) : (res += `${el}) `);
+  } else if (2 &lt; i && i &lt; 6) {
+    i !== 5 ? (res += el) : (res += `${el}-`);
+  } else {
+    res += el;
+  }
+}
+
+return res;
+}</code></pre>
+        </div>
+      </section>
+
+      <!-- Experience in web -->
+      <section class="mb-10 px-10" id="experience">
+        <h2 class="text-2xl mb-1.5">Experience in web</h2>
+        <hr>
+        <ul class="my-3 list-disc pl-5">
+          <li>
+            <a href="https://github.com/baktify/simple-beautiful-blog" class="text-blue-500 hover:underline">
+              Simple beautiful blog
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/baktify/file-converter" class="text-blue-500 hover:underline">
+              File converter
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Education -->
+      <section class="mb-10 px-10" id="education">
+        <h2 class="text-2xl mb-1.5">Education</h2>
+        <hr>
+        <ul class="my-3 list-disc pl-5">
+          <li>Bachelor in Vistula University (Warsaw, Poland)</li>
+        </ul>
+      </section>
+
+      <!-- Languages -->
+      <section class="mb-10 px-10" id="languages">
+        <h2 class="text-2xl mb-1.5">Languages</h2>
+        <hr>
+        <ul class="my-3 list-disc pl-5">
+          <li>English (C1)</li>
+          <li>Russian (C1)</li>
+          <li>Kazakh (Native)</li>
+          <li>Turkish (B2)</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="max-w-screen-lg mx-auto flex justify-between items-center text-lg px-10">
+      <div>&copy; 2024</div>
+      <div class="flex items-center space-x-20">
+        <div><a class="underline" href="https://github.com/baktify">Github</a></div>
+        <div>
+          <a href="https://rs.school/courses/javascript">
+            <img width="60" src="./src/images/rs-school-logo.svg" alt="rs-school-logo">
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

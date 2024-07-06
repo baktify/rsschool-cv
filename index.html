@@ -9,90 +9,91 @@
 </head>
 
 <body>
-  <main class="max-w-screen-lg mx-auto my-16">
-    <h1 class="text-4xl mb-10 px-10">Bakytzhan Kozhabayev</h1>
+  <div class="my-16" id="app">
+    <main class="max-w-screen-lg mx-auto">
+      <h1 class="text-4xl mb-10 px-10">Bakytzhan Kozhabayev</h1>
 
-    <!-- Contacts -->
-    <section class="mb-10 px-10">
-      <h2 class="text-2xl mb-1.5">Contacts</h2>
-      <hr>
-      <ul class="my-3">
-        <li><span class="font-medium">Address:</span>&nbsp; Zhanaozen,Kazakhstan</li>
-        <li><span class="font-medium">Telegram:</span>&nbsp; @baktify</li>
-        <li><span class="font-medium">Phone:</span>&nbsp; +7775 485 02 64</li>
-        <li><span class="font-medium">Email:</span>&nbsp; bakosyy@gmail.com</li>
-        <li>
-          <span class="font-medium">Github:</span>&nbsp;
-          <a class="text-blue-500 hover:underline" href="https://github.com/baktify">baktify</a>
-        </li>
-      </ul>
-    </section>
+      <!-- Contacts -->
+      <section class="mb-10 px-10">
+        <h2 class="text-2xl mb-1.5">Contacts</h2>
+        <hr>
+        <ul class="my-3">
+          <li><span class="font-medium">Address:</span>&nbsp; Zhanaozen,Kazakhstan</li>
+          <li><span class="font-medium">Telegram:</span>&nbsp; @baktify</li>
+          <li><span class="font-medium">Phone:</span>&nbsp; +7775 485 02 64</li>
+          <li><span class="font-medium">Email:</span>&nbsp; bakosyy@gmail.com</li>
+          <li>
+            <span class="font-medium">Github:</span>&nbsp;
+            <a class="text-blue-500 hover:underline" href="https://github.com/baktify">baktify</a>
+          </li>
+        </ul>
+      </section>
 
-    <!-- About me -->
-    <section class="mb-10 px-10">
-      <h2 class="text-2xl mb-1.5">About me</h2>
-      <hr>
-      <p class="my-3">
-        Hey, I am Bakytzhan Kozhabayev (Bako), 26 years old. I am
-        self-learned web developer familiar with frontend and backend,
-        always excited to learn new things.
-      </p>
-    </section>
+      <!-- About me -->
+      <section class="mb-10 px-10">
+        <h2 class="text-2xl mb-1.5">About me</h2>
+        <hr>
+        <p class="my-3">
+          Hey, I am Bakytzhan Kozhabayev (Bako), 26 years old. I am
+          self-learned web developer familiar with frontend and backend,
+          always excited to learn new things.
+        </p>
+      </section>
 
-    <!-- Skills -->
-    <section class="mb-10 px-10">
-      <h2 class="text-2xl mb-1.5">Skills</h2>
-      <hr>
-      <table class="my-3 w-[300px] text-left">
-        <thead>
-          <tr>
-            <th>Frontend</th>
-            <th>Backend</th>
-            <th>Other</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Javascript</td>
-            <td>PHP</td>
-            <td>Linux</td>
-          </tr>
-          <tr>
-            <td>Typescript</td>
-            <td>Laravel</td>
-            <td>Git</td>
-          </tr>
-          <tr>
-            <td>React</td>
-            <td>Nginx</td>
-            <td>Docker</td>
-          </tr>
-          <tr>
-            <td>HTML/CSS</td>
-            <td>MySQL</td>
-            <td>Figma</td>
-          </tr>
-          <tr>
-            <td>Tailwind</td>
-            <td></td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
+      <!-- Skills -->
+      <section class="mb-10 px-10">
+        <h2 class="text-2xl mb-1.5">Skills</h2>
+        <hr>
+        <table class="my-3 w-[300px] text-left">
+          <thead>
+            <tr>
+              <th>Frontend</th>
+              <th>Backend</th>
+              <th>Other</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Javascript</td>
+              <td>PHP</td>
+              <td>Linux</td>
+            </tr>
+            <tr>
+              <td>Typescript</td>
+              <td>Laravel</td>
+              <td>Git</td>
+            </tr>
+            <tr>
+              <td>React</td>
+              <td>Nginx</td>
+              <td>Docker</td>
+            </tr>
+            <tr>
+              <td>HTML/CSS</td>
+              <td>MySQL</td>
+              <td>Figma</td>
+            </tr>
+            <tr>
+              <td>Tailwind</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
 
-    <!-- Code example -->
-    <section class="mb-10 px-10">
-      <h2 class="text-2xl mb-1.5">Code example</h2>
-      <hr>
-      <div class="bg-[#f6f8fa] text-sm p-4 my-3">
-        <code class="">
+      <!-- Code example -->
+      <section class="mb-10 px-10">
+        <h2 class="text-2xl mb-1.5">Code example</h2>
+        <hr>
+        <div class="bg-[#f6f8fa] text-sm p-4 my-3">
+          <code class="">
             createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns
             "(123) 456-7890"
           </code>
-      </div>
-      <div class="bg-[#f6f8fa] text-sm p-4 my-3">
-        <pre><code class="">function createPhoneNumber(numbers) {
+        </div>
+        <div class="bg-[#f6f8fa] text-sm p-4 my-3">
+          <pre><code class="">function createPhoneNumber(numbers) {
 let res = '(';
 for (let i = 0; i &lt; numbers.length; i++) {
   const el = numbers[i];
@@ -108,48 +109,49 @@ for (let i = 0; i &lt; numbers.length; i++) {
 
 return res;
 }</code></pre>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <!-- Experience in web -->
-    <section class="mb-10 px-10">
-      <h2 class="text-2xl mb-1.5">Experience in web</h2>
-      <hr>
-      <ul class="my-3 list-disc pl-5">
-        <li>
-          <a href="https://github.com/baktify/simple-beautiful-blog" class="text-blue-500 hover:underline">
-            Simple beautiful blog
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/baktify/file-converter" class="text-blue-500 hover:underline">
-            File converter
-          </a>
-        </li>
-      </ul>
-    </section>
+      <!-- Experience in web -->
+      <section class="mb-10 px-10">
+        <h2 class="text-2xl mb-1.5">Experience in web</h2>
+        <hr>
+        <ul class="my-3 list-disc pl-5">
+          <li>
+            <a href="https://github.com/baktify/simple-beautiful-blog" class="text-blue-500 hover:underline">
+              Simple beautiful blog
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/baktify/file-converter" class="text-blue-500 hover:underline">
+              File converter
+            </a>
+          </li>
+        </ul>
+      </section>
 
-    <!-- Education -->
-    <section class="mb-10 px-10">
-      <h2 class="text-2xl mb-1.5">Education</h2>
-      <hr>
-      <ul class="my-3 list-disc pl-5">
-        <li>Bachelor in Vistula University (Warsaw, Poland)</li>
-      </ul>
-    </section>
+      <!-- Education -->
+      <section class="mb-10 px-10">
+        <h2 class="text-2xl mb-1.5">Education</h2>
+        <hr>
+        <ul class="my-3 list-disc pl-5">
+          <li>Bachelor in Vistula University (Warsaw, Poland)</li>
+        </ul>
+      </section>
 
-    <!-- Languages -->
-    <section class="mb-10 px-10">
-      <h2 class="text-2xl mb-1.5">Languages</h2>
-      <hr>
-      <ul class="my-3 list-disc pl-5">
-        <li>English (C1)</li>
-        <li>Russian (C1)</li>
-        <li>Kazakh (Native)</li>
-        <li>Turkish (B2)</li>
-      </ul>
-    </section>
-  </main>
+      <!-- Languages -->
+      <section class="mb-10 px-10">
+        <h2 class="text-2xl mb-1.5">Languages</h2>
+        <hr>
+        <ul class="my-3 list-disc pl-5">
+          <li>English (C1)</li>
+          <li>Russian (C1)</li>
+          <li>Kazakh (Native)</li>
+          <li>Turkish (B2)</li>
+        </ul>
+      </section>
+    </main>
+  </div>
 
   <script type="module" src="/src/main.ts"></script>
 </body>

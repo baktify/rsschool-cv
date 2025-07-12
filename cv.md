@@ -10,7 +10,7 @@
 
 ## About me
 
-Hey, call me Bako. 
+Hey, call me Bako.
 
 Coding is my hobby.
 
@@ -30,15 +30,18 @@ function multiply(a, b) {
 ```
 
 ## Experience
+
 - [Simple blog](https://github.com/baktify/simple-beautiful-blog)
 
 ## Education
 
-**Courses:** 
+**Courses:**
+
 - Javascript Basics
 - Javascript DOM
 
 **Languages:**
+
 - English (C1)
 - Russian (C1)
 - Kazakh (Native)

@@ -20,3 +20,12 @@ Coding is my hobby.
 - CSS
 - JS
 - PHP
+
+## Code example
+
+```
+function multiply(a, b) {
+    return a * b;
+}
+```
+

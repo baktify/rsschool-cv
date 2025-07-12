@@ -8,3 +8,9 @@
 
 **Github:** [baktify](https://github.com/baktify/)
 
+## About me
+
+Hey, call me Bako. 
+
+Coding is my hobby.
+

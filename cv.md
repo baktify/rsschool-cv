@@ -14,3 +14,9 @@ Hey, call me Bako.
 
 Coding is my hobby.
 
+## Skills
+
+- HTML
+- CSS
+- JS
+- PHP

@@ -1,4 +1,4 @@
-# Bakytzhan Kozhabayev
+# Bakyt Kozhabayev
 
 ## Contacts
 

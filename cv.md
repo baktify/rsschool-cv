@@ -29,3 +29,13 @@ function multiply(a, b) {
 }
 ```
 
+## Education
+
+**Courses:** 
+- Javascript Basics
+- Javascript DOM
+
+**Languages:**
+- English (C1)
+- Russian (C1)
+- Kazakh (Native)

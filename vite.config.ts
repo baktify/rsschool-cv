@@ -11,5 +11,6 @@ const noCrossOrigin = () => {
 }
 
 export default defineConfig({
+  base: './',
   plugins: [tailwindcss(), noCrossOrigin()],
 })
